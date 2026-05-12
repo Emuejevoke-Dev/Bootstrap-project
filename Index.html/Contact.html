@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+
+<body>
+
+
+    <style>
+        /* NAV BAR */
+
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-size: auto;
+        }
+
+         img{
+         max-width: 100%;
+        height:auto;}
+  
+        
+        .image{
+            display:flex;
+            margin-top:40px;}
+
+
+        .img {
+            font-family: Roboto;
+            font-weight: 400;
+            font-style: Regular;
+            font-size: 40px;
+            leading-trim: NONE;
+            line-height: 100%;
+            letter-spacing: 0%;
+            vertical-align: middle;
+            color: #DCDE9F;
+        }
+
+        .two {
+            font-family: Roboto;
+            font-weight: 400;
+            font-style: Regular;
+            font-size: 40px;
+            leading-trim: NONE;
+            line-height: 100%;
+            letter-spacing: 0%;
+            vertical-align: middle;
+            color: #DCDE9F;
+
+        }
+
+
+
+        /* h1 */
+
+        .class {
+            font-family: Roboto;
+            font-weight: 700;
+            font-style: Bold;
+            font-size: 64px;
+            leading-trim: NONE;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-align: left;
+            vertical-align: middle;
+            color: #DCDE9F;
+        }
+
+
+
+
+        .beige {
+            display: flex;
+
+            background-color: #446129;
+        }
+
+
+        .eight {
+            font-family: Roboto;
+            font-weight: 700;
+            font-style: Bold;
+            font-size: 64px;
+            leading-trim: NONE;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-align: center;
+            vertical-align: middle;
+            color: #DCDE9F;
+            ;
+        }
+
+        .nine {
+            width: auto;
+            padding: 30px;
+            border-radius: 30px;
+            font-size: 30px;
+            font-weight: 200px;
+            background: transparent;
+            border-color: #FCEE21;
+            padding: #FCEE21;
+        }
+
+        .nine1 {
+            width: auto;
+            padding: 60px;
+            border-radius: 30px;
+            font-size: 40px;
+            font-weight: 200px;
+            background: transparent;
+            border-color: #FCEE21;
+            padding: #FCEE21;
+        }
+
+
+        .ten,
+        .label {
+            flex: 1;
+            padding: 60px;
+        }
+
+        
+
+        ::placeholder {
+            color: #FCEE21;
+        }
+
+        .flex {
+            display: flex;
+            justify-content: center;
+        }
+
+        .btn {
+            padding: 35px;
+            background-color: #FCEE21;
+            margin-top: 20px;
+            border-radius: 10px;
+            justify-content: center;
+        }
+
+
+
+        .label {
+            background-color: #446129;
+            /* background-size:100px; */
+
+        }
+
+        .ten {
+            background: #183114;
+
+        }
+
+        .or {
+            text-align: center;
+            color: #ffffff;
+            font-size: 40px;
+        }
+
+        .footer-card {
+            gap: 50px;
+            color: #FCEE21
+        }
+
+
+
+        .parent-card4 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .parent-container4 {
+            background-color: #183114;
+            font-family: 80px;
+            padding: 50px;
+        }
+
+
+        .H4 {
+            color: #DCDE9F;
+            font-weight: 100px;
+            font-size: 25px;
+            list-style: none;
+        }
+
+
+        .h4 {
+            color: #FCEE21;
+            font-weight: 2500px;
+            font-size: 50px;
+
+        }
+
+        .p4 {
+            font-weight: 400px;
+            font-size: 20px;
+            color: #DCDE9F;
+        }
+
+
+        /* footer-card" */
+
+        .footer-card {
+            display: flex;
+            justify-content: center;
+            width: auto;
+            gap: 15px;
+
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-around;
+        }
+
+
+
+        .footer1 {
+            font-size: 30px;
+            font-weight: 700px;
+            background: hsba(62, 28%, 87%, 1);
+        }
+
+
+ @media (max-width: 768px) {
+  .beige {
+    flex-direction: column; /* stacks ten and label on top of each other */
+  }
+
+  .ten,
+  .label {
+    flex: none;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .class {
+    font-size: 35px; /* reduces big heading on phone */
+  }
+
+  .eight {
+    font-size: 35px; /* reduces Send Me Email heading */
+  }
+
+  .two {
+    font-size: 20px; /* reduces paragraph text */
+  }
+
+  .nine,
+  .nine1 {
+    width: 100%; /* makes inputs full width */
+    padding: 15px;
+  }
+
+  .parent-card4 {
+    flex-direction: column; /* stacks footer columns */
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-card {
+    flex-wrap: wrap; /* wraps social icons */
+    justify-content: center;
+  }
+}
+    </style>
+     <section class="nav-bar">
+    <nav class="navbar navbar-expand-lg" style="background:linear-gradient(135deg, #1a3a0a, #2d5a1b);">
+  <div class="container-fluid  px-5">
+    <a class="navbar-brand text-warning fs-3 fw-bold" href="#">Dive Into Skills</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-5">
+        <li class="nav-item">
+          <a class="nav-link text-white fs-4" aria-current="page" href="Home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white fs-4" aria-current="page" href="Blog.html">Blog</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link text-white fs-4" aria-current="page" href="Courses.html">Courses</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link  text-white fs-4" aria-current="page" href="About.html">About</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link  text-warning active fs-4" aria-current="page" href="Contact.html">Contact</a>
+        </li>
+    </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <section class="beige">
+
+        <div class="ten">
+            <div class>
+
+                <h1 class="class">Have a Query in Mind?</h1>
+                <p class="two">You can reach out to me via email <br> or social media platforms to <br> discuss the
+                    query.</p>
+            </div>
+            <div class="image">
+                <div class="img">
+                    <img src="\Boostrap-project-work\Images\et_map-pin.png"alt="">
+                </div>
+
+                <div>
+                    <p class="img">Muzaffargarh, Punjab, Pakistan</p>
+                </div>
+            </div>
+            <div class="image">
+
+                <div>
+                    <img src="\Boostrap-project-work\Images\ant-design_mail-outlined.png"alt="">
+                </div>
+                <div>
+                    <p class="img">diveintoskills@gmail.com</p>
+                </div>
+            </div>
+
+
+            <div class="image">
+                <div>
+                    <img src="\Boostrap-project-work\Images\bxs_phone-call(1).png"alt="">
+                </div>
+                <div>
+                    <p class="img">+923001312712</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="label">
+            <p class="eight">Send Me Email</p>
+
+            <label></label>
+            <input type="name" placeholder="Your Name " class="nine">
+            <br>
+            <br>
+
+
+
+            <label></label>
+            <input type="email" placeholder="Send Me Email" class="nine">
+
+            <br>
+            <br>
+
+            <label></label>
+            <input type="headlines" placeholder="headlines" class="nine">
+
+            <br>
+            <br>
+
+            <label></label>
+            <input type="field" placeholder="Details For Query" class="nine1">
+            <div class="flex">
+                <button class="btn">Send</button>
+
+            </div>
+
+            <p class="or">or</p>
+
+            <!-- footer-card" -->
+
+            <div class="footer-card">
+          <img src="\Boostrap-project-work\Images/facebook.png" alt="px">
+          <img src="\Boostrap-project-work\Images\instagram.png" alt="px">
+          <img src="\Boostrap-project-work\Images/twitter.png" alt="px">
+          <img src="\Boostrap-project-work\Images\linkin.png" alt="px">
+          <img src="\Boostrap-project-work\Images\youtube.png" alt="px">
+          <img src="\Boostrap-project-work\Images\slack.png" alt="px">
+          <img src="\Boostrap-project-work\Images\discord.png" alt="px">
+            </div>
+
+            <div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="parent-container4">
+            <div class="parent-card4">
+                <div>
+                    <h1 class="h4">Dive Into Skills</h1>
+                    <p class="p4">The latest articles and courses to <br>help you upgrade your skills and learn <br> the
+                        latest
+                        trends.
+                        Master web <br> Development with these amazing<br> resources that are available for free!</p>
+                </div>
+
+                <div>
+                    <ul class="H4">
+                        <li>Home</li>
+                        <li>Blog</li>
+                        <li>Courses</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul class="H4">
+                        <li>About</li>
+                        <li>Content</li>
+                        <li>Privacy policy</li>
+                        <li>Terms & Conditions</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- footer-card" -->
+
+            <div class="footer-card">
+          <img src="\Boostrap-project-work\Images/facebook.png" alt="px">
+          <img src="\Boostrap-project-work\Images\instagram.png" alt="px">
+          <img src="\Boostrap-project-work\Images/twitter.png" alt="px">
+          <img src="\Boostrap-project-work\Images\linkin.png" alt="px">
+          <img src="\Boostrap-project-work\Images\youtube.png" alt="px">
+          <img src="\Boostrap-project-work\Images\slack.png" alt="px">
+          <img src="\Boostrap-project-work\Images\discord.png" alt="px">
+            </div>
+
+
+            <div class="footer text-white">
+                <p class="footer1">COPYRIGHT @ 2022 Dive Into Skills</p>
+                <p class="footer1">Developed by: Ahmad Raza</p>
+            </div>
+
+    </section>
+
+
+    </div>
+
+    </div>
+
+
+
+
+
+
+    </section>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
+</html>

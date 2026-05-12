@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bootsstrap Assignment</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
+<style>
+  img{
+    max-width:100%;
+    height:auto;
+  }
+  
+
+    .h1subtitle {
+      color: #FCEE21;
+      font-weight: 700;
+      font-style: bold;
+      font-size: 40px;
+    }
+
+    .p-subtitle {
+      color: #ffffff;
+    }
+
+    
+    /* button */
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      margin-left: 20px;
+      border-radius: 15px;
+    }
+
+
+
+
+
+    .Hero {
+      display: flex;
+      justify-content:space-evenly;
+      background: linear-gradient(90deg, #183114 0%, #446129 100%);
+      height: 90vh;
+      padding:100px;
+      overflow:hidden;
+    }
+
+    p {
+      font-weight: 400;
+      font-style: regular;
+      font-size: 50px;
+      line-height: 100%;
+      color: #446129;
+      margin-top: 20px;
+
+    }
+
+    /* section 2 */
+
+    .scetion2 {
+      background-color: beige;
+    }
+
+    .btn {
+      background-color: #183114;
+      color: #FCEE21;
+      font-weight: 800;
+      font-family: 80px;
+      font-family: 'Courier New', Courier, monospace;
+      padding: 20px;
+    }
+
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+
+      width: auto;
+      margin-top: 30px;
+    }
+
+    .subscribe-btn {
+      padding: 20px;
+      align-content: center;
+      border-radius: 20px;
+      font-size: 25px;
+      background-color: #FCEE21;
+      flex-grow: 1;
+      border-start-start-radius: 20px;
+    }
+
+    .email-input {
+      background-color: transparent;
+      padding: 20px;
+      font-size: 25px;
+      border-color: #FCEE21;
+      border-radius: 20px;
+      border-right: none;
+      color: #FCEE21
+    }
+
+    .h1 {
+      font-weight: 500;
+      style: bold;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .section-two {
+      text-align: center;
+      margin-top: 20px;
+      font-weight: 600;
+    }
+
+    /* card body */
+
+
+    body{
+      background-color: #F3F4D3;
+    }
+
+
+
+    h2 {
+      font-style: bold;
+      font-weight: 800;
+      font-size: 20px;
+      font-family: roboto;
+      color: #183114;
+    }
+
+    .card-body {
+      background-color: #DCDE9F;
+    }
+
+    p {
+      font-style: bold;
+      font-weight: 400;
+      font-size: 35px;
+      color: #446129;
+    }
+
+
+    /* card-3 section */
+
+    .card-3 {
+      font-weight: 700;
+      font-style: bold;
+      font-size: 35px;
+      color: #FCEE21;
+      margin-top: 50px;
+
+    }
+
+
+    .p3 {
+      font-weight: 400;
+      font-style: regular font-size: 25px;
+      color: #DCDE9F;
+    }
+
+
+    .parent-container3 {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      background: linear-gradient(90deg, #183114 0%, #446129 100%);
+      margin-right: 130px;
+      margin-left: 130px;
+      border-radius: 20px;
+    }
+
+
+
+    .parent-card4 {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .parent-container4 {
+      background-color: #183114;
+      margin-top: 100px;
+      font-family: 80px;
+      padding: 50px;
+    }
+
+
+    .H4 {
+      color: #DCDE9F;
+      font-weight: 100px;
+      font-size: 25px;
+      list-style: none;
+    }
+
+
+    .h4 {
+      color: #FCEE21;
+      font-weight: 2500px;
+      font-size: 50px;
+
+    }
+
+    .p4 {
+      font-weight: 400px;
+      font-size: 20px;
+      color: #DCDE9F;
+    }
+
+
+    /* footer-card" */
+
+    .footer-card {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+      width: auto;
+      gap: 15px;
+
+    }
+
+    .footer {
+      display: flex;
+      justify-content: space-around;
+    }
+
+
+
+    .footer1 {
+      font-size: 30px;
+      font-weight: 700px;
+      background: hsba(62, 28%, 87%, 1);
+    }
+  </style>
+
+
+
+
+  </head>
+
+
+</html>
+
+<body>
+
+  
+
+
+
+
+<!-- navigation bar -->
+ <section class="nav-bar">
+    <nav class="navbar navbar-expand-lg" style="background:linear-gradient(135deg, #1a3a0a, #2d5a1b);">
+  <div class="container-fluid  px-5">
+    <a class="navbar-brand text-warning fs-3 fw-bold" href="#">Dive Into Skills</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-5">
+        <li class="nav-item">
+          <a class="nav-link active text-warning fs-4" aria-current="page" href="Home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-white fs-4" aria-current="page" href="Blog.html">Blog</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active text-white fs-4" aria-current="page" href="Courses.html">Courses</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active text-white fs-4" aria-current="page" href="About.html">About</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active text-white fs-4" aria-current="page" href="Contact.html">Contact</a>
+        </li>
+    </ul>
+    </div>
+  </div>
+</nav>
+   <!-- section 1 -->
+<section class="Hero d-flex flex-column flex-lg-row align-items- center justidfy- content-between p-4 p-lg-5">
+  <div>
+    <div class="Hero-subtitle">
+      <h1 class="h1subtitle">The latest articles and courses <br> to help you upgrade your skills.</h1>
+      <br>
+
+
+      <p class="p-subtitle">Master Web Development with amazing <br> resources that are available for free! Join our
+        <br> Newsletter
+        and get alerted when new articles,<br> topics or courses are published.</p>
+      <div class="button-container">
+        <input type="email" placeholder="Email Address" class="email-input">
+        <button class="subscribe-btn">subscribe</button>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+  <div>
+    <img src="\Boostrap-project-work\Images\boy on desk.png"class="img-fluid">
+  </div>
+
+
+  </div>
+  </section>
+
+
+
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 pb-3" >
+
+  <!-- Card 1 -->
+  <div class="col">
+    <div class="card border border-2 border-primary rounded-5 shadow h-100">
+      <img src="\Boostrap-project-work\Images\Rectangle 15.png" alt="phone" class="card-img-top w-100">
+      <div class="card-body">
+        <h2 class="card-title fs-5">Title goes here</h2>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="col">
+    <div class="card border border-2 border-primary rounded-5 shadow h-100">
+      <img src="\Boostrap-project-work\Images\Rectangle 15.png" alt="phone" class="card-img-top w-100">
+      <div class="card-body">
+        <h2 class="card-title fs-5">Title goes here</h2>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="col">
+    <div class="card border border-2 border-primary rounded-5 shadow h-100">
+      <img src="\Boostrap-project-work\Images\Rectangle 15.png" alt="phone" class="card-img-top w-100">
+      <div class="card-body">
+        <h2 class="card-title fs-5">Title goes here</h2>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="col">
+    <div class="card border border-2 border-primary rounded-5 shadow h-100">
+      <img src="\Boostrap-project-work\Images\Rectangle 15.png" alt="phone" class="card-img-top w-100">
+      <div class="card-body">
+        <h2 class="card-title fs-5">Title goes here</h2>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+      <!-- <card-4> -->
+
+      <div class="parent-container4">
+        <div class="parent-card4">
+          <div>
+            <h1 class="h4">Dive Into Skills</h1>
+            <p class="p4">The latest articles and courses to <br>help you upgrade your skills and learn <br> the latest
+              trends.
+              Master web <br> Development with these amazing<br> resources that are available for free!</p>
+          </div>
+
+          <div>
+            <ul class="H4">
+              <li>Home</li>
+              <li>Blog</li>
+              <li>Courses</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+
+          <div>
+            <ul class="H4">
+              <li>About</li>
+              <li>Content</li>
+              <li>Privacy policy</li>
+              <li>Terms & Conditions</li>
+            </ul>
+          </div>
+        </div>
+        <!-- footer-card" -->
+
+        <div class="footer-card">
+          <img src="./Images/facebook.png" alt="px">
+          <img src="./Images/instagram.png" alt="px">
+          <img src="./Images/twitter.png" alt="px">
+          <img src="./Images/linkin.png" alt="px">
+          <img src="./Images/youtube.png" alt="px">
+          <img src="./Images/slack.png" alt="px">
+          <img src="./Images/discord.png" alt="px">
+        </div>
+
+
+        <div class="footer">
+          <p class="footer1">COPYRIGHT @ 2022 Dive Into Skills</p>
+          <p class="footer1">Developed by: Ahmad Raza</p>
+        </div>
+
+
+      </div>
+      </div>
+
+      </div>
+
+
+
+      </div>
+      </div>
+      </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
