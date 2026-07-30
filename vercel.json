@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/Index.html/Home.html"
+    },
+    {
+      "source": "/Boostrap-project-work/Images/:path*",
+      "destination": "/Images/:path*"
+    },
+    {
+      "source": "/Index.html/Images/:path*",
+      "destination": "/Images/:path*"
+    }
+  ]
+}
